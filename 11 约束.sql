@@ -218,7 +218,9 @@ SELECT * FROM test01;
 		说明：学生表中的student-id为主键，那么成绩表中的student_id为外键。如果更新学生表中的
 					student_id,同时触发成绩表中的student_id更新，即为级联更新。级联更新是强阻塞，存在
 					数据库更新风暴的风险，外键影响数据库的插入速度
-		
+
+        constraint fk_user_id foreign key (user_id) references tb_emp(id)
+        使用关键字连接
 		*/
 
 
