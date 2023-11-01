@@ -167,6 +167,7 @@
 	
 	# 7. DCL 中 COMMIT 和 ROLLBACK
 	/*
+	    开启事务 start transaction / begin
 		COMMIT：提交数据。一旦执行，则数据就被永久的保存在了数据库中，意味着数据不可以回滚
 		ROLLBACK：回滚数据。一旦执行，则可以实现回滚数据，回滚到最近一次COMMIT之后
 	
